@@ -25,14 +25,14 @@ function SideBarC(props) {
     <Sider collapsible collapsed={isSideBarCollapsed} onCollapse={onCollapseSideBar} width='150px' >
       <Header />
       <Menu defaultSelectedKeys={['home']} theme="dark" selectedKeys={[selectedMenuKey]}>
-          {appRoutesKeys.map((key) => 
-              <Menu.Item 
-                key={key}
-                onClick={onClickMenuItem(AppRoutes[key])}
-              >
-                {key}
-              </Menu.Item>
-          )}
+        {appRoutesKeys.map((key) =>
+          <Menu.Item
+            key={key}
+            onClick={onClickMenuItem(AppRoutes[key])}
+          >
+            {key}
+          </Menu.Item>
+        )}
       </Menu>
     </Sider>
   );

@@ -5,6 +5,7 @@ import { BrowserRouter, Redirect, Route } from 'react-router-dom';
 
 import { BreedsList } from 'breeds-list/BreedList';
 import { BreedDetails } from 'breeds-list/breed-details/BreedDetails';
+import { BreedSearch } from 'breed-search/BreedSearch';
 import { Home } from 'home/Home';
 import { AppRoutes } from 'utils';
 
@@ -28,6 +29,7 @@ const App = () => {
           {/* app content */}
           <div id='pageContent'>
             <Route path={AppRoutes.Home} component={Home} />
+            <Route exact path={AppRoutes.BreedSearch} component={BreedSearch} />
             <Route exact path={`${AppRoutes.Breeds}/:id`} component={BreedDetails} />
             <Route exact path={AppRoutes.Breeds} component={BreedsList} />
             <Redirect from='*' to={AppRoutes.Home} />

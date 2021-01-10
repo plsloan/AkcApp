@@ -26,7 +26,14 @@ client.connect().then((client, _err) => {
     db.collection('BreedData')
       .findOne({ _id: new MongoClient.ObjectId(req.params['id']) })
       .then(data => { res.json(data) })
-  });  
+  });
+
+  server.get(`${apiPath}/breed-traits`, (_req, res) => {
+    db.collection('BreedData')
+      .find({}, { projection: { breed_name: 1, traits: 1 } })
+      .sort({ breed_name: 1 })
+      .toArray((_err, result) => { res.json(result) });
+  })
   
   server.get(`${apiPath}/breed-table`, (_req, res) => {
     db.collection('BreedData')
