@@ -1,21 +1,10 @@
 import { Table } from 'antd';
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { withRouter } from 'react-router-dom';
-import { apiFetch } from 'utils';
-
-const defaultBreedData = ['not set'];
+import { breedData } from 'utils';
 
 const BreedsListC = (props) => {
   const { history } = props;
-  const [breedData, setBreedData] = useState(defaultBreedData);
-  
-  useEffect(() => {
-    if (breedData === defaultBreedData) {
-      apiFetch('/api/breed-table').then(data => {
-        setBreedData(data)
-      })
-    }
-  }, [breedData]);
 
   const getStringOrRange = value => {
     if (typeof value === 'string') {
@@ -134,7 +123,7 @@ const BreedsListC = (props) => {
     },
   ];
 
-  const getTableData = () => breedData.map(breed => {
+  const getTableData = () => breedData.map((breed, index) => {
     let breed_pop = ''
     let breed_height = ''
     let breed_weight = ''
@@ -150,7 +139,7 @@ const BreedsListC = (props) => {
     }
 
     return {
-      key: breed['_id'],
+      key: index,
       breed_name: breed['breed_name'],
       breed_popularity: breed_pop,
       height: getStringOrRange(breed_height),
@@ -169,7 +158,7 @@ const BreedsListC = (props) => {
       <Table 
         columns={tableColumns}
         dataSource={getTableData()}
-        onRow={(record, rowIndex) => {
+        onRow={(record, _rowIndex) => {
           return { onDoubleClick: _event => history.push(`/breeds/${record['key']}`) }
         }}
         pagination={{ pageSizeOptions: ['5', '10', '15'] }}

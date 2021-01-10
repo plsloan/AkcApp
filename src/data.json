@@ -1,0 +1,5029 @@
+[
+  {
+    "breed_name": "Affenpinscher",
+    "attributes": {
+      "temperament": ["Confident", "Famously Funny", "Fearless"],
+      "breed_popularity": 148,
+      "height": [9.0, 11.5],
+      "weight": [7.0, 10.0],
+      "life_expectancy": [12, 15],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Afghan Hound",
+    "attributes": {
+      "temperament": ["Dignified", "Profoundly Loyal", "Aristocratic"],
+      "breed_popularity": 113,
+      "height": [25.0, 27.0],
+      "weight": [50.0, 60.0],
+      "life_expectancy": [12, 15],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Aloof/Wary", "rating": 1 }
+    }
+  },
+  {
+    "breed_name": "Airedale Terrier",
+    "attributes": {
+      "temperament": ["Friendly", "Clever", "Courageous"],
+      "breed_popularity": 60,
+      "height": [20.0, 25.0],
+      "weight": [50.0, 70.0],
+      "life_expectancy": [11, 14],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Akita",
+    "attributes": {
+      "temperament": ["Courageous", "Dignified", "Profoundly Loyal"],
+      "breed_popularity": 47,
+      "height": [24.0, 28.0],
+      "weight": [70.0, 130.0],
+      "life_expectancy": [10, 13],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Alaskan Malamute",
+    "attributes": {
+      "temperament": ["Affectionate", "Loyal", "Playful"],
+      "breed_popularity": 58,
+      "height": [20.0, 28.0],
+      "weight": [70.0, 90.0],
+      "life_expectancy": [10, 14],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "American Bulldog",
+    "attributes": {
+      "temperament": ["Loyal", "Self-Confident"],
+      "height": [20.0, 25.0],
+      "weight": [60.0, 100.0],
+      "life_expectancy": [10, 12],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "American English Coonhound",
+    "attributes": {
+      "temperament": ["Sweet", "Mellow", "Sociable"],
+      "breed_popularity": 175,
+      "height": [23.0, 26.0],
+      "weight": [45.0, 65.0],
+      "life_expectancy": [11, 12],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "American Eskimo Dog (Toy)",
+    "attributes": {
+      "temperament": ["Playful", "Perky", "Smart"],
+      "breed_popularity": 122,
+      "height": [9.0, 12.0],
+      "weight": [6.0, 10.0],
+      "life_expectancy": [13, 15],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "American Eskimo Dog (Miniature)",
+    "attributes": {
+      "temperament": ["Playful", "Perky", "Smart"],
+      "breed_popularity": 122,
+      "height": [12.0, 15.0],
+      "weight": [10.0, 20.0],
+      "life_expectancy": [13, 15],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "American Eskimo Dog (Standard)",
+    "attributes": {
+      "temperament": ["Playful", "Perky", "Smart"],
+      "breed_popularity": 122,
+      "height": [15.0, 19.0],
+      "weight": [25.0, 35.0],
+      "life_expectancy": [13, 15],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "American Foxhound",
+    "attributes": {
+      "temperament": ["Independent", "Easy-Going", "Sweet-Tempered"],
+      "breed_popularity": 186,
+      "height": [21.0, 25.0],
+      "weight": [60.0, 70.0],
+      "life_expectancy": [11, 13],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "American Hairless Terrier",
+    "attributes": {
+      "temperament": ["Energetic", "Alert", "Curious"],
+      "breed_popularity": 136,
+      "height": [12.0, 16.0],
+      "weight": [12.0, 16.0],
+      "life_expectancy": [14, 16],
+      "group": "Terrier Group"
+    },
+    "traits": {}
+  },
+  {
+    "breed_name": "American Leopard Hound",
+    "attributes": {
+      "temperament": ["Sociable", "Energetic", "Intelligent"],
+      "height": [21.0, 27.0],
+      "weight": [45.0, 70.0],
+      "life_expectancy": [12, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "American Staffordshire Terrier",
+    "attributes": {
+      "temperament": ["Confident", "Smart", "Good-Natured"],
+      "breed_popularity": 85,
+      "height": [17.0, 19.0],
+      "weight": [40.0, 70.0],
+      "life_expectancy": [12, 16],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "American Water Spaniel",
+    "attributes": {
+      "temperament": ["Eager", "Happy", "Charming"],
+      "breed_popularity": 166,
+      "height": [15.0, 18.0],
+      "weight": [25.0, 45.0],
+      "life_expectancy": [10, 14],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Anatolian Shepherd Dog",
+    "attributes": {
+      "temperament": ["Loyal", "Independent", "Reserved"],
+      "breed_popularity": 90,
+      "height": [27.0, 29.0],
+      "weight": [80.0, 150.0],
+      "life_expectancy": [11, 13],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Appenzeller Sennenhund",
+    "attributes": {
+      "temperament": ["Agile", "Versatile", "Lively"],
+      "height": [19.0, 22.0],
+      "weight": [48.0, 70.0],
+      "life_expectancy": [12, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Australian Cattle Dog",
+    "attributes": {
+      "temperament": ["Alert", "Curious", "Pleasant"],
+      "breed_popularity": 55,
+      "height": [17.0, 20.0],
+      "weight": [35.0, 50.0],
+      "life_expectancy": [12, 16],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Australian Kelpie",
+    "attributes": {
+      "temperament": ["Loyal", "Alert", "Intelligent"],
+      "height": [17.0, 20.0],
+      "weight": [31.0, 46.0],
+      "life_expectancy": [10, 13],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Australian Shepherd",
+    "attributes": {
+      "temperament": ["Smart", "Work-Oriented", "Exuberant"],
+      "breed_popularity": 17,
+      "height": [18.0, 23.0],
+      "weight": [40.0, 65.0],
+      "life_expectancy": [12, 15],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Australian Stumpy Tail Cattle Dog",
+    "attributes": {
+      "temperament": ["Alert", "Trainable", "Comical"],
+      "height": [17.0, 20.0],
+      "weight": [32.0, 45.0],
+      "life_expectancy": [12, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Australian Terrier",
+    "attributes": {
+      "temperament": ["Affectionate", "Courageous", "Spirited"],
+      "breed_popularity": 140,
+      "height": [10.0, 11.0],
+      "weight": [15.0, 20.0],
+      "life_expectancy": [11, 15],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Azawakh",
+    "attributes": {
+      "temperament": ["Loyal", "Independent", "Deeply Affectionate"],
+      "height": [23.5, 29.0],
+      "weight": [33.0, 55.0],
+      "life_expectancy": [12, 15],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Barbet",
+    "attributes": {
+      "temperament": ["Friendly", "Bright", "Sweet-Natured"],
+      "height": [19.0, 24.5],
+      "weight": [35.0, 65.0],
+      "life_expectancy": [12, 14],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Basenji",
+    "attributes": {
+      "temperament": ["Independent", "Smart", "Poised"],
+      "breed_popularity": 87,
+      "height": [16.0, 17.0],
+      "weight": [22.0, 24.0],
+      "life_expectancy": [13, 14],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Basset Fauve de Bretagne",
+    "attributes": {
+      "temperament": ["Smart", "Cheerful", "Determined"],
+      "height": [12.5, 15.5],
+      "weight": [27.0, 35.0],
+      "life_expectancy": [12, 20],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Basset Hound",
+    "attributes": {
+      "temperament": ["Charming", "Patient", "Low-Key"],
+      "breed_popularity": 39,
+      "height": [0, 15.0],
+      "weight": [40.0, 65.0],
+      "life_expectancy": [12, 13],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Couch Potato", "rating": 1 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Bavarian Mountain Scent Hound",
+    "attributes": {
+      "temperament": ["Loyal", "Versatile", "Reserved with Strangers"],
+      "height": [17.0, 20.5],
+      "weight": [37.0, 66.0],
+      "life_expectancy": [12, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Beagle",
+    "attributes": {
+      "temperament": ["Friendly", "Curious", "Merry"],
+      "breed_popularity": 6,
+      "height": [10.0, 15.0],
+      "weight": [15.0, 30.0],
+      "life_expectancy": [10, 15],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Bearded Collie",
+    "attributes": {
+      "temperament": ["Smart", "Bouncy", "Charismatic"],
+      "breed_popularity": 127,
+      "height": [20.0, 22.0],
+      "weight": [45.0, 55.0],
+      "life_expectancy": [12, 14],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Beauceron",
+    "attributes": {
+      "temperament": ["Gentle", "Faithful", "Obedient"],
+      "breed_popularity": 124,
+      "height": [24.0, 27.5],
+      "weight": [70.0, 110.0],
+      "life_expectancy": [10, 12],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Frequent", "rating": 5 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Bedlington Terrier",
+    "attributes": {
+      "temperament": ["Loyal", "Charming", "Frollicking"],
+      "breed_popularity": 141,
+      "height": [15.0, 17.5],
+      "weight": [17.0, 23.0],
+      "life_expectancy": [11, 16],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Belgian Laekenois",
+    "attributes": {
+      "temperament": ["Affectionate", "Alert", "Intelligent"],
+      "height": [22.0, 26.0],
+      "weight": [55.0, 65.0],
+      "life_expectancy": [10, 12],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Belgian Malinois",
+    "attributes": {
+      "temperament": ["Confident", "Smart", "Hardworking"],
+      "breed_popularity": 43,
+      "height": [22.0, 26.0],
+      "weight": [40.0, 80.0],
+      "life_expectancy": [14, 16],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Belgian Sheepdog",
+    "attributes": {
+      "temperament": ["Bright", "Watchful", "Serious-Minded"],
+      "breed_popularity": 125,
+      "height": [22.0, 26.0],
+      "weight": [45.0, 75.0],
+      "life_expectancy": [12, 14],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Belgian Tervuren",
+    "attributes": {
+      "temperament": ["Courageous", "Alert", "Intelligent"],
+      "breed_popularity": 106,
+      "height": [22.0, 26.0],
+      "weight": [45.0, 75.0],
+      "life_expectancy": [12, 14],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Bergamasco Sheepdog",
+    "attributes": {
+      "temperament": ["Independent", "Sociable", "Intelligent"],
+      "breed_popularity": 187,
+      "height": [22.0, 23.5],
+      "weight": [57.0, 84.0],
+      "life_expectancy": [13, 15],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Calm", "rating": 2 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Berger Picard",
+    "attributes": {
+      "temperament": ["Loyal", "Good-Natured", "Observant"],
+      "breed_popularity": 144,
+      "height": [21.5, 25.5],
+      "weight": [50.0, 70.0],
+      "life_expectancy": [12, 13],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Bernese Mountain Dog",
+    "attributes": {
+      "temperament": ["Good-Natured", "Calm", "Strong"],
+      "breed_popularity": 22,
+      "height": [23.0, 27.5],
+      "weight": [70.0, 115.0],
+      "life_expectancy": [7, 10],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Frequent", "rating": 5 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Bichon Frise",
+    "attributes": {
+      "temperament": ["Playful", "Curious", "Peppy"],
+      "breed_popularity": 46,
+      "height": [9.5, 11.5],
+      "weight": [12.0, 18.0],
+      "life_expectancy": [14, 15],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Specialty/Professional", "rating": 5 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Biewer Terrier",
+    "attributes": {
+      "temperament": ["Intelligent", "Devoted", "Amusing"],
+      "height": [7.0, 11.0],
+      "weight": [4.0, 8.0],
+      "life_expectancy": [15, 17],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Calm", "rating": 2 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Black and Tan Coonhound",
+    "attributes": {
+      "temperament": ["Easy-Going", "Bright", "Brave"],
+      "breed_popularity": 138,
+      "height": [23.0, 27.0],
+      "weight": [65.0, 110.0],
+      "life_expectancy": [10, 12],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Black Russian Terrier",
+    "attributes": {
+      "temperament": ["Intelligent", "Calm", "Powerful"],
+      "breed_popularity": 118,
+      "height": [26.0, 30.0],
+      "weight": [80.0, 130.0],
+      "life_expectancy": [10, 12],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Bloodhound",
+    "attributes": {
+      "temperament": ["Friendly", "Independent", "Inquisitive"],
+      "breed_popularity": 49,
+      "height": [23.0, 27.0],
+      "weight": [80.0, 110.0],
+      "life_expectancy": [10, 12],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Bluetick Coonhound",
+    "attributes": {
+      "temperament": ["Smart", "Devoted", "Tenacious"],
+      "breed_popularity": 130,
+      "height": [21.0, 27.0],
+      "weight": [45.0, 80.0],
+      "life_expectancy": [11, 12],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Boerboel",
+    "attributes": {
+      "temperament": ["Confident", "Intelligent", "Calm"],
+      "breed_popularity": 121,
+      "height": [22.0, 27.0],
+      "weight": [150.0, 200.0],
+      "life_expectancy": [9, 11],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Calm", "rating": 2 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Bohemian Shepherd",
+    "attributes": {
+      "temperament": ["Friendly", "Devoted", "Alert and Intelligent"],
+      "height": [19.3, 21.7],
+      "weight": [37.0, 60.0],
+      "life_expectancy": [12, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Bolognese",
+    "attributes": {
+      "temperament": ["Playful", "Easy-Going", "Devoted"],
+      "height": [10.0, 12.0],
+      "weight": [5.5, 9.0],
+      "life_expectancy": [12, 14],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Calm", "rating": 2 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Border Collie",
+    "attributes": {
+      "temperament": ["Affectionate", "Smart", "Energetic"],
+      "breed_popularity": 35,
+      "height": [18.0, 22.0],
+      "weight": [30.0, 55.0],
+      "life_expectancy": [12, 15],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Border Terrier",
+    "attributes": {
+      "temperament": ["Affectionate", "Happy", "Plucky"],
+      "breed_popularity": 88,
+      "height": [12.0, 15.0],
+      "weight": [11.5, 15.5],
+      "life_expectancy": [12, 15],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Borzoi",
+    "attributes": {
+      "temperament": ["Affectionate", "Loyal", "Regally Dignified"],
+      "breed_popularity": 103,
+      "height": [26.0, 35.0],
+      "weight": [60.0, 105.0],
+      "life_expectancy": [9, 14],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Boston Terrier",
+    "attributes": {
+      "temperament": ["Friendly", "Bright", "Amusing"],
+      "breed_popularity": 21,
+      "height": [15.0, 17.0],
+      "weight": [12.0, 25.0],
+      "life_expectancy": [11, 13],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Bouvier des Flandres",
+    "attributes": {
+      "temperament": ["Affectionate", "Courageous", "Strong-Willed"],
+      "breed_popularity": 84,
+      "height": [23.5, 27.5],
+      "weight": [70.0, 110.0],
+      "life_expectancy": [10, 12],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Boxer",
+    "attributes": {
+      "temperament": ["Bright", "Fun-Loving", "Active"],
+      "breed_popularity": 11,
+      "height": [21.5, 25.0],
+      "weight": [50.0, 80.0],
+      "life_expectancy": [10, 12],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Boykin Spaniel",
+    "attributes": {
+      "temperament": ["Friendly", "Eager", "Lovable"],
+      "breed_popularity": 100,
+      "height": [14.0, 18.0],
+      "weight": [25.0, 40.0],
+      "life_expectancy": [10, 15],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Bracco Italiano",
+    "attributes": {
+      "temperament": ["Affectionate", "Intelligent", "Enthusiastic"],
+      "height": [21.0, 27.0],
+      "weight": [55.0, 90.0],
+      "life_expectancy": [10, 14],
+      "group": "Miscellaneous Class"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Braque du Bourbonnais",
+    "attributes": {
+      "temperament": ["Affectionate", "Adaptable", "Gentle"],
+      "height": [19.0, 22.5],
+      "weight": [35.0, 53.0],
+      "life_expectancy": [10, 12],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Braque Francais Pyrenean",
+    "attributes": {
+      "temperament": ["Friendly", "Smart", "Willing to Please"],
+      "height": [18.5, 23.0],
+      "weight": [40.0, 55.0],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Briard",
+    "attributes": {
+      "temperament": ["Confident", "Smart", "Faithful"],
+      "breed_popularity": 132,
+      "height": [22.0, 27.0],
+      "weight": [55.0, 100.0],
+      "life_expectancy": [11, 13],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Brittany",
+    "attributes": {
+      "temperament": ["Bright", "Fun-Loving", "Upbeat"],
+      "breed_popularity": 26,
+      "height": [17.5, 20.5],
+      "weight": [30.0, 40.0],
+      "life_expectancy": [12, 14],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Broholmer",
+    "attributes": {
+      "temperament": ["Friendly", "Watchful", "Loving"],
+      "height": [27.5, 29.5],
+      "weight": [90.0, 150.0],
+      "life_expectancy": [8, 10],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Calm", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Brussels Griffon",
+    "attributes": {
+      "temperament": ["Loyal", "Alert", "Curious"],
+      "breed_popularity": 98,
+      "height": [7.0, 10.0],
+      "weight": [8.0, 10.0],
+      "life_expectancy": [12, 15],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Bull Terrier",
+    "attributes": {
+      "temperament": ["Playful", "Charming", "Mischievous"],
+      "breed_popularity": 62,
+      "height": [21.0, 22.0],
+      "weight": [50.0, 70.0],
+      "life_expectancy": [12, 13],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Bulldog",
+    "attributes": {
+      "temperament": ["Friendly", "Courageous", "Calm"],
+      "breed_popularity": 5,
+      "height": [14.0, 15.0],
+      "weight": [40.0, 50.0],
+      "life_expectancy": [8, 10],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Bullmastiff",
+    "attributes": {
+      "temperament": ["Affectionate", "Loyal", "Brave"],
+      "breed_popularity": 51,
+      "height": [24.0, 27.0],
+      "weight": [100.0, 130.0],
+      "life_expectancy": [7, 9],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Cairn Terrier",
+    "attributes": {
+      "temperament": ["Alert", "Cheerful", "Busy"],
+      "breed_popularity": 69,
+      "height": [9.5, 10.0],
+      "weight": [13.0, 14.0],
+      "life_expectancy": [13, 15],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Canaan Dog",
+    "attributes": {
+      "temperament": ["Confident", "Alert", "Vigilant"],
+      "breed_popularity": 179,
+      "height": [19.0, 24.0],
+      "weight": [35.0, 55.0],
+      "life_expectancy": [12, 15],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Frequent", "rating": 5 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Cane Corso",
+    "attributes": {
+      "temperament": ["Affectionate", "Intelligent", "Majestic"],
+      "breed_popularity": 32,
+      "height": [23.5, 27.5],
+      "weight": "Proportionate to height",
+      "life_expectancy": [9, 12],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Cardigan Welsh Corgi",
+    "attributes": {
+      "temperament": ["Affectionate", "Loyal", "Smart"],
+      "breed_popularity": 68,
+      "height": [10.5, 12.5],
+      "weight": [25.0, 38.0],
+      "life_expectancy": [12, 15],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Carolina Dog",
+    "attributes": {
+      "temperament": ["Loyal", "Independent", "Reserved with Strangers"],
+      "height": [17.75, 19.5],
+      "weight": [30.0, 55.0],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Catahoula Leopard Dog",
+    "attributes": {
+      "temperament": ["Loyal", "Independent", "Watchful"],
+      "height": [22.0, 24.0],
+      "weight": [50.0, 95.0],
+      "life_expectancy": [10, 14],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Caucasian Shepherd Dog",
+    "attributes": {
+      "temperament": ["Fearless", "Bold", "Kind"],
+      "height": [23.0, 30.0],
+      "weight": [99.0, 170.0],
+      "life_expectancy": [10, 12],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Calm", "rating": 2 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Aloof/Wary", "rating": 1 }
+    }
+  },
+  {
+    "breed_name": "Cavalier King Charles Spaniel",
+    "attributes": {
+      "temperament": ["Affectionate", "Gentle", "Graceful"],
+      "breed_popularity": 18,
+      "height": [12.0, 13.0],
+      "weight": [13.0, 18.0],
+      "life_expectancy": [12, 15],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Calm", "rating": 2 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Central Asian Shepherd Dog",
+    "attributes": {
+      "temperament": ["Independent", "Courageous", "Self-Confident"],
+      "height": [25.5, 27.5],
+      "weight": [88.0, 110.0],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Calm", "rating": 2 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Aloof/Wary", "rating": 1 }
+    }
+  },
+  {
+    "breed_name": "Cesky Terrier",
+    "attributes": {
+      "temperament": ["Clever", "Adventurous", "Family-Oriented"],
+      "breed_popularity": 185,
+      "height": [10.0, 13.0],
+      "weight": [14.0, 24.0],
+      "life_expectancy": [12, 15],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Chesapeake Bay Retriever",
+    "attributes": {
+      "temperament": ["Affectionate", "Bright", "Sensitive"],
+      "breed_popularity": 45,
+      "height": [21.0, 26.0],
+      "weight": [55.0, 80.0],
+      "life_expectancy": [10, 13],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Chihuahua",
+    "attributes": {
+      "temperament": ["Charming", "Graceful", "Sassy"],
+      "breed_popularity": 33,
+      "height": [5.0, 8.0],
+      "weight": [0, 6.0],
+      "life_expectancy": [14, 16],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Chinese Crested",
+    "attributes": {
+      "temperament": ["Affectionate", "Alert", "Lively"],
+      "breed_popularity": 79,
+      "height": [11.0, 13.0],
+      "weight": [8.0, 12.0],
+      "life_expectancy": [13, 18],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Chinese Shar-Pei",
+    "attributes": {
+      "temperament": ["Loyal", "Independent", "Calm"],
+      "breed_popularity": 64,
+      "height": [18.0, 20.0],
+      "weight": [45.0, 60.0],
+      "life_expectancy": [8, 12],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Chinook",
+    "attributes": {
+      "temperament": ["Smart", "Patient", "Devoted"],
+      "breed_popularity": 190,
+      "height": [22.0, 26.0],
+      "weight": [50.0, 90.0],
+      "life_expectancy": [12, 15],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Chow Chow",
+    "attributes": {
+      "temperament": ["Dignified", "Bright", "Serious-Minded"],
+      "breed_popularity": 75,
+      "height": [17.0, 20.0],
+      "weight": [45.0, 70.0],
+      "life_expectancy": [8, 12],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Cirneco dell\u2019Etna",
+    "attributes": {
+      "temperament": ["Affectionate", "Friendly", "Independent"],
+      "breed_popularity": 183,
+      "height": [16.5, 19.5],
+      "weight": [17.0, 26.0],
+      "life_expectancy": [12, 14],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Clumber Spaniel",
+    "attributes": {
+      "temperament": ["Mellow", "Amusing", "Gentlemanly"],
+      "breed_popularity": 143,
+      "height": [17.0, 20.0],
+      "weight": [55.0, 85.0],
+      "life_expectancy": [10, 12],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Cocker Spaniel",
+    "attributes": {
+      "temperament": ["Gentle", "Smart", "Happy"],
+      "breed_popularity": 30,
+      "height": [13.5, 15.5],
+      "weight": [20.0, 30.0],
+      "life_expectancy": [10, 14],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Collie",
+    "attributes": {
+      "temperament": ["Devoted", "Graceful", "Proud"],
+      "breed_popularity": 38,
+      "height": [22.0, 26.0],
+      "weight": [50.0, 75.0],
+      "life_expectancy": [12, 14],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Coton de Tulear",
+    "attributes": {
+      "temperament": ["Charming", "Bright", "Happy-Go-Lucky"],
+      "breed_popularity": 81,
+      "height": [9.0, 11.0],
+      "weight": [8.0, 15.0],
+      "life_expectancy": [15, 19],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Croatian Sheepdog",
+    "attributes": {
+      "temperament": ["Loyal", "Active", "Alert and Intelligent"],
+      "height": [16.0, 20.0],
+      "weight": [29.0, 44.0],
+      "life_expectancy": [13, 14],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Curly-Coated Retriever",
+    "attributes": {
+      "temperament": ["Confident", "Proud", "Wickedly Smart"],
+      "breed_popularity": 162,
+      "height": [23.0, 27.0],
+      "weight": [60.0, 95.0],
+      "life_expectancy": [10, 12],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Czechoslovakian Vlcak",
+    "attributes": {
+      "temperament": ["Loyal", "Intelligent", "Active"],
+      "height": [23.5, 25.5],
+      "weight": [44.0, 57.0],
+      "life_expectancy": [10, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Frequent", "rating": 5 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Aloof/Wary", "rating": 1 }
+    }
+  },
+  {
+    "breed_name": "Dachshund (Standard)",
+    "attributes": {
+      "temperament": ["Friendly", "Curious", "Spunky"],
+      "breed_popularity": 12,
+      "height": [8.0, 9.0],
+      "weight": [16.0, 32.0],
+      "life_expectancy": [12, 16],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Dachshund (Miniature)",
+    "attributes": {
+      "temperament": ["Friendly", "Curious", "Spunky"],
+      "breed_popularity": 12,
+      "height": [5.0, 6.0],
+      "weight": [0.0, 11.0],
+      "life_expectancy": [12, 16],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Dalmatian",
+    "attributes": {
+      "temperament": ["Dignified", "Smart", "Outgoing"],
+      "breed_popularity": 56,
+      "height": [19.0, 24.0],
+      "weight": [45.0, 70.0],
+      "life_expectancy": [11, 13],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Frequent", "rating": 5 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Dandie Dinmont Terrier",
+    "attributes": {
+      "temperament": ["Independent", "Smart", "Proud"],
+      "breed_popularity": 176,
+      "height": [8.0, 11.0],
+      "weight": [18.0, 24.0],
+      "life_expectancy": [12, 15],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Danish-Swedish Farmdog",
+    "attributes": {
+      "temperament": ["Energetic", "Trainable", "Attentive"],
+      "height": [12.5, 14.5],
+      "weight": [15.0, 20.0],
+      "life_expectancy": [11, 13],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Deutscher Wachtelhund",
+    "attributes": {
+      "temperament": ["Friendly", "Versatile", "Determined"],
+      "height": [18.0, 21.0],
+      "weight": [40.0, 55.0],
+      "life_expectancy": [12, 14],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Doberman Pinscher",
+    "attributes": {
+      "temperament": ["Loyal", "Fearless", "Alert"],
+      "breed_popularity": 17,
+      "height": [24.0, 28.0],
+      "weight": [60.0, 100.0],
+      "life_expectancy": [10, 12],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Dogo Argentino",
+    "attributes": {
+      "temperament": ["Loyal", "Courageous", "Athletic"],
+      "height": [24.0, 26.5],
+      "weight": [88.0, 100.0],
+      "life_expectancy": [9, 15],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Dogue de Bordeaux",
+    "attributes": {
+      "temperament": ["Affectionate", "Loyal", "Courageous"],
+      "breed_popularity": 67,
+      "height": [20.0, 28.0],
+      "weight": [100.0, 200.0],
+      "life_expectancy": [5, 8],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Drentsche Patrijshond",
+    "attributes": {
+      "temperament": ["Loyal", "Intelligent", "Sensitive"],
+      "height": [21.0, 25.0],
+      "weight": [48.0, 73.0],
+      "life_expectancy": [11, 14],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Drever",
+    "attributes": {
+      "temperament": ["Loyal", "Even-Tempered", "Determined"],
+      "height": [12.0, 15.0],
+      "weight": [35.0, 40.0],
+      "life_expectancy": [14, 16],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Dutch Shepherd",
+    "attributes": {
+      "temperament": ["Intelligent", "Lively", "Athletic"],
+      "height": [21.5, 24.5],
+      "weight": [42.0, 75.0],
+      "life_expectancy": [11, 14],
+      "group": "Miscellaneous Class"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "English Cocker Spaniel",
+    "attributes": {
+      "temperament": ["Energetic", "Merry", "Responsive"],
+      "breed_popularity": 52,
+      "height": [15.0, 17.0],
+      "weight": [26.0, 34.0],
+      "life_expectancy": [12, 14],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "English Foxhound",
+    "attributes": {
+      "temperament": ["Affectionate", "Gentle", "Sociable"],
+      "breed_popularity": 188,
+      "height": [21.0, 27.0],
+      "weight": [60.0, 75.0],
+      "life_expectancy": [10, 13],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "English Setter",
+    "attributes": {
+      "temperament": ["Friendly", "Mellow", "Merry"],
+      "breed_popularity": 94,
+      "height": [23.0, 27.0],
+      "weight": [45.0, 80.0],
+      "life_expectancy": [11, 13],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "English Springer Spaniel",
+    "attributes": {
+      "temperament": ["Friendly", "Playful", "Obedient"],
+      "breed_popularity": 27,
+      "height": [19.0, 20.0],
+      "weight": [40.0, 50.0],
+      "life_expectancy": [12, 14],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "English Toy Spaniel",
+    "attributes": {
+      "temperament": ["Gentle", "Playful", "Intelligent"],
+      "breed_popularity": 135,
+      "height": [9.0, 10.0],
+      "weight": [8.0, 14.0],
+      "life_expectancy": [10, 12],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Entlebucher Mountain Dog",
+    "attributes": {
+      "temperament": ["Loyal", "Smart", "Enthusiastic"],
+      "breed_popularity": 157,
+      "height": [16.0, 21.0],
+      "weight": [40.0, 65.0],
+      "life_expectancy": [11, 13],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Estrela Mountain Dog",
+    "attributes": {
+      "temperament": ["Alert", "Intelligent", "Brave"],
+      "height": [24.5, 29.0],
+      "weight": [77.0, 132.0],
+      "life_expectancy": [10, 14],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Calm", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Eurasier",
+    "attributes": {
+      "temperament": ["Confident", "Calm", "Family-Oriented"],
+      "height": [19.0, 24.0],
+      "weight": [40.0, 70.0],
+      "life_expectancy": [12, 16],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Field Spaniel",
+    "attributes": {
+      "temperament": ["Sweet", "Fun-Loving", "Sensitive"],
+      "breed_popularity": 149,
+      "height": [17.0, 18.0],
+      "weight": [35.0, 50.0],
+      "life_expectancy": [12, 13],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Finnish Lapphund",
+    "attributes": {
+      "temperament": ["Friendly", "Alert", "Agile"],
+      "breed_popularity": 161,
+      "height": [16.0, 21.0],
+      "weight": [33.0, 53.0],
+      "life_expectancy": [12, 15],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Finnish Spitz",
+    "attributes": {
+      "temperament": ["Friendly", "Good-Natured", "Lively"],
+      "breed_popularity": 184,
+      "height": [15.5, 20.0],
+      "weight": [20.0, 33.0],
+      "life_expectancy": [13, 15],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Flat-Coated Retriever",
+    "attributes": {
+      "temperament": ["Cheerful", "Optimistic", "Good-Humored"],
+      "breed_popularity": 91,
+      "height": [22.0, 24.5],
+      "weight": [60.0, 70.0],
+      "life_expectancy": [8, 10],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "French Bulldog",
+    "attributes": {
+      "temperament": ["Adaptable", "Playful", "Smart"],
+      "breed_popularity": 4,
+      "height": [11.0, 13.0],
+      "weight": [0, 28.0],
+      "life_expectancy": [10, 12],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Calm", "rating": 2 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "French Spaniel",
+    "attributes": {
+      "temperament": ["Gentle", "Sociable", "Intelligent"],
+      "height": [21.5, 24.0],
+      "weight": [50.0, 60.0],
+      "life_expectancy": [10, 12],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {}
+  },
+  {
+    "breed_name": "German Longhaired Pointer",
+    "attributes": {
+      "temperament": ["Versatile", "Calm", "Family-Oriented"],
+      "height": [22.0, 28.0],
+      "weight": [55.0, 80.0],
+      "life_expectancy": [12, 14],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "German Pinscher",
+    "attributes": {
+      "temperament": ["Courageous", "Intelligent", "Vivacious"],
+      "breed_popularity": 134,
+      "height": [17.0, 20.0],
+      "weight": [25.0, 45.0],
+      "life_expectancy": [12, 14],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "German Shepherd Dog",
+    "attributes": {
+      "temperament": ["Confident", "Courageous", "Smart"],
+      "breed_popularity": 2,
+      "height": [22.0, 26.0],
+      "weight": [50.0, 90.0],
+      "life_expectancy": [7, 10],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "German Shorthaired Pointer",
+    "attributes": {
+      "temperament": ["Friendly", "Smart", "Willing to Please"],
+      "breed_popularity": 9,
+      "height": [21.0, 25.0],
+      "weight": [45.0, 70.0],
+      "life_expectancy": [10, 12],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "German Spitz",
+    "attributes": {
+      "temperament": ["Devoted", "Lively", "Attentive"],
+      "height": [12.0, 15.0],
+      "weight": [24.0, 26.0],
+      "life_expectancy": [13, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "German Wirehaired Pointer",
+    "attributes": {
+      "temperament": ["Affectionate", "Eager", "Enthusiastic"],
+      "breed_popularity": 63,
+      "height": [22.0, 26.0],
+      "weight": [50.0, 70.0],
+      "life_expectancy": [14, 16],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Giant Schnauzer",
+    "attributes": {
+      "temperament": ["Loyal", "Alert", "Trainable"],
+      "breed_popularity": 78,
+      "height": [23.5, 27.5],
+      "weight": [55.0, 85.0],
+      "life_expectancy": [12, 15],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Glen of Imaal Terrier",
+    "attributes": {
+      "temperament": ["Gentle", "Spirited", "Bold"],
+      "breed_popularity": 174,
+      "height": [12.5, 14.0],
+      "weight": [32.0, 40.0],
+      "life_expectancy": [10, 15],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Golden Retriever",
+    "attributes": {
+      "temperament": ["Friendly", "Intelligent", "Devoted"],
+      "breed_popularity": 3,
+      "height": [21.5, 24.0],
+      "weight": [55.0, 75.0],
+      "life_expectancy": [10, 12],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Gordon Setter",
+    "attributes": {
+      "temperament": ["Affectionate", "Confident", "Bold"],
+      "breed_popularity": 115,
+      "height": [23.0, 27.0],
+      "weight": [45.0, 80.0],
+      "life_expectancy": [12, 13],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Grand Basset Griffon Vend\u00e9en",
+    "attributes": {
+      "temperament": ["Independent", "Happy", "Outgoing"],
+      "breed_popularity": 177,
+      "height": [15.5, 18.0],
+      "weight": [40.0, 45.0],
+      "life_expectancy": [13, 15],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Great Dane",
+    "attributes": {
+      "temperament": ["Friendly", "Patient", "Dependable"],
+      "breed_popularity": 16,
+      "height": [28.0, 32.0],
+      "weight": [110.0, 175.0],
+      "life_expectancy": [7, 10],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Great Pyrenees",
+    "attributes": {
+      "temperament": ["Smart", "Patient", "Calm"],
+      "breed_popularity": 66,
+      "height": [25.0, 32.0],
+      "weight": [85.0, 200.0],
+      "life_expectancy": [10, 12],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Greater Swiss Mountain Dog",
+    "attributes": {
+      "temperament": ["Faithful", "Family-Oriented", "Dependable"],
+      "breed_popularity": 74,
+      "height": [23.5, 28.5],
+      "weight": [85.0, 140.0],
+      "life_expectancy": [8, 11],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Greyhound",
+    "attributes": {
+      "temperament": ["Gentle", "Independent", "Noble"],
+      "breed_popularity": 145,
+      "height": [27.0, 30.0],
+      "weight": [60.0, 70.0],
+      "life_expectancy": [10, 13],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Hamiltonstovare",
+    "attributes": {
+      "temperament": ["Agile", "Versatile", "Regal"],
+      "height": [19.0, 24.0],
+      "weight": [40.0, 75.0],
+      "life_expectancy": [14, 17],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Hanoverian Scenthound",
+    "attributes": {
+      "temperament": ["Loyal", "Independent", "Calm"],
+      "height": [19.0, 21.0],
+      "weight": [79.0, 99.0],
+      "life_expectancy": [10, 14],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Harrier",
+    "attributes": {
+      "temperament": ["Friendly", "Outgoing", "People-Oriented"],
+      "breed_popularity": 189,
+      "height": [19.0, 21.0],
+      "weight": [45.0, 60.0],
+      "life_expectancy": [12, 15],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Havanese",
+    "attributes": {
+      "temperament": ["Intelligent", "Outgoing", "Funny"],
+      "breed_popularity": 24,
+      "height": [8.5, 11.5],
+      "weight": [7.0, 13.0],
+      "life_expectancy": [14, 16],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Hokkaido",
+    "attributes": {
+      "temperament": ["Dignified", "Alert", "Devoted"],
+      "height": [18.0, 20.0],
+      "weight": [44.0, 66.0],
+      "life_expectancy": [12, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Hovawart",
+    "attributes": {
+      "temperament": ["Alert", "Faithful", "Intelligent"],
+      "height": [23.0, 28.0],
+      "weight": [65.0, 90.0],
+      "life_expectancy": [10, 14],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Ibizan Hound",
+    "attributes": {
+      "temperament": ["Family-Oriented", "Even-Tempered", "Polite"],
+      "breed_popularity": 152,
+      "height": [22.5, 27.5],
+      "weight": [45.0, 50.0],
+      "life_expectancy": [11, 14],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Icelandic Sheepdog",
+    "attributes": {
+      "temperament": ["Friendly", "Playful", "Inquisitive"],
+      "breed_popularity": 155,
+      "height": [16.5, 18.0],
+      "weight": [25.0, 30.0],
+      "life_expectancy": [12, 14],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Irish Red and White Setter",
+    "attributes": {
+      "temperament": ["Courageous", "Spirited", "Determined"],
+      "breed_popularity": 146,
+      "height": [22.5, 26.0],
+      "weight": [35.0, 60.0],
+      "life_expectancy": [11, 15],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Irish Setter",
+    "attributes": {
+      "temperament": ["Active", "Outgoing", "Sweet-Natured"],
+      "breed_popularity": 77,
+      "height": [25.0, 27.0],
+      "weight": [60.0, 70.0],
+      "life_expectancy": [12, 15],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Irish Terrier",
+    "attributes": {
+      "temperament": ["Bold", "Dashing", "Tenderhearted"],
+      "breed_popularity": 116,
+      "height": [15.0, 20.0],
+      "weight": [25.0, 27.0],
+      "life_expectancy": [13, 15],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Irish Water Spaniel",
+    "attributes": {
+      "temperament": ["Playful", "Hardworking", "Brave"],
+      "breed_popularity": 159,
+      "height": [21.0, 24.0],
+      "weight": [45.0, 68.0],
+      "life_expectancy": [12, 13],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Irish Wolfhound",
+    "attributes": {
+      "temperament": ["Courageous", "Dignified", "Calm"],
+      "breed_popularity": 76,
+      "height": [30.0, 40.0],
+      "weight": [105.0, 120.0],
+      "life_expectancy": [6, 8],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Italian Greyhound",
+    "attributes": {
+      "temperament": ["Playful", "Alert", "Sensitive"],
+      "breed_popularity": 73,
+      "height": [13.0, 15.0],
+      "weight": [7.0, 14.0],
+      "life_expectancy": [14, 15],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Aloof/Wary", "rating": 1 }
+    }
+  },
+  {
+    "breed_name": "Jagdterrier",
+    "attributes": {
+      "temperament": ["Courageous", "Intelligent", "Hardworking"],
+      "height": [13.0, 16.0],
+      "weight": [17.0, 22.0],
+      "life_expectancy": [10, 12],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {}
+  },
+  {
+    "breed_name": "Japanese Akitainu",
+    "attributes": {
+      "temperament": ["Dignified", "Alert", "Reserved"],
+      "height": [22.5, 27.5],
+      "weight": [55.0, 75.0],
+      "life_expectancy": [10, 12],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Japanese Chin",
+    "attributes": {
+      "temperament": ["Charming", "Noble", "Loving"],
+      "breed_popularity": 104,
+      "height": [8.0, 11.0],
+      "weight": [7.0, 11.0],
+      "life_expectancy": [10, 12],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Japanese Spitz",
+    "attributes": {
+      "temperament": ["Loyal", "Playful", "Smart"],
+      "height": [12.0, 15.0],
+      "weight": [10.0, 25.0],
+      "life_expectancy": [12, 14],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Japanese Terrier",
+    "attributes": {
+      "temperament": ["Independent", "Curious", "Reserved"],
+      "height": [11.0, 13.0],
+      "weight": [5.0, 10.0],
+      "life_expectancy": [12, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Jindo",
+    "attributes": {
+      "temperament": ["Alert", "Intelligent", "Bold"],
+      "height": [18.0, 22.0],
+      "weight": [30.0, 50.0],
+      "life_expectancy": [13, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Kai Ken",
+    "attributes": {
+      "temperament": ["Loyal", "Agile", "Keen"],
+      "height": [15.5, 19.5],
+      "weight": [20.0, 40.0],
+      "life_expectancy": [12, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Karelian Bear Dog",
+    "attributes": {
+      "temperament": ["Loyal", "Independent", "Courageous"],
+      "height": [19.0, 23.5],
+      "weight": [44.0, 49.0],
+      "life_expectancy": [11, 13],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Calm", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Keeshond",
+    "attributes": {
+      "temperament": ["Friendly", "Lively", "Outgoing"],
+      "breed_popularity": 95,
+      "height": [17.0, 18.0],
+      "weight": [35.0, 45.0],
+      "life_expectancy": [12, 15],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Kerry Blue Terrier",
+    "attributes": {
+      "temperament": ["Smart", "Alert", "People-Oriented"],
+      "breed_popularity": 129,
+      "height": [17.5, 19.5],
+      "weight": [30.0, 40.0],
+      "life_expectancy": [12, 15],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Kishu Ken",
+    "attributes": {
+      "temperament": ["Faithful", "Noble", "Docile"],
+      "height": [17.0, 22.0],
+      "weight": [30.0, 60.0],
+      "life_expectancy": [11, 13],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Komondor",
+    "attributes": {
+      "temperament": ["Loyal", "Dignified", "Brave"],
+      "breed_popularity": 173,
+      "height": [25.0, 28.0],
+      "weight": [80.0, 150.0],
+      "life_expectancy": [10, 12],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Specialty/Professional", "rating": 5 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Kromfohrlander",
+    "attributes": {
+      "temperament": ["Intelligent", "Active", "Sensitive"],
+      "height": [15.0, 18.0],
+      "weight": [20.0, 35.0],
+      "life_expectancy": [13, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Kuvasz",
+    "attributes": {
+      "temperament": ["Loyal", "Fearless", "Courageous"],
+      "breed_popularity": 163,
+      "height": [26.0, 30.0],
+      "weight": [70.0, 115.0],
+      "life_expectancy": [10, 12],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Labrador Retriever",
+    "attributes": {
+      "temperament": ["Friendly", "Active", "Outgoing"],
+      "breed_popularity": 1,
+      "height": [21.5, 24.5],
+      "weight": [55.0, 80.0],
+      "life_expectancy": [10, 12],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Lagotto Romagnolo",
+    "attributes": {
+      "temperament": ["Affectionate", "Keen", "Undemanding"],
+      "breed_popularity": 99,
+      "height": [16.0, 19.0],
+      "weight": [24.0, 35.0],
+      "life_expectancy": [15, 17],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Lakeland Terrier",
+    "attributes": {
+      "temperament": ["Friendly", "Confident", "Bold"],
+      "breed_popularity": 147,
+      "height": [13.0, 15.0],
+      "weight": [15.0, 17.0],
+      "life_expectancy": [12, 15],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Lancashire Heeler",
+    "attributes": {
+      "temperament": ["Affectionate", "Versatile", "Intelligent"],
+      "height": [10.0, 12.0],
+      "weight": [9.0, 17.0],
+      "life_expectancy": [12, 15],
+      "group": "Miscellaneous Class"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Lapponian Herder",
+    "attributes": {
+      "temperament": ["Friendly", "Energetic", "Intelligent"],
+      "height": [18.0, 20.0],
+      "weight": [60.0, 80.0],
+      "life_expectancy": [10, 14],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Leonberger",
+    "attributes": {
+      "temperament": ["Friendly", "Gentle", "Playful"],
+      "breed_popularity": 93,
+      "height": [25.5, 31.5],
+      "weight": [90.0, 170.0],
+      "life_expectancy": [8, 10],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Lhasa Apso",
+    "attributes": {
+      "temperament": ["Confident", "Smart", "Comical"],
+      "breed_popularity": 71,
+      "height": [9.0, 11.0],
+      "weight": [12.0, 18.0],
+      "life_expectancy": [12, 15],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "L\u00f6wchen",
+    "attributes": {
+      "temperament": ["Affectionate", "Outgoing", "Positive"],
+      "breed_popularity": 168,
+      "height": [11.0, 13.0],
+      "weight": [10.0, 15.0],
+      "life_expectancy": [15, 20],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Maltese",
+    "attributes": {
+      "temperament": ["Gentle", "Playful", "Charming"],
+      "breed_popularity": 37,
+      "height": [7.0, 9.0],
+      "weight": [0, 7.0],
+      "life_expectancy": [12, 15],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Manchester Terrier (Standard)",
+    "attributes": {
+      "temperament": ["Spirited", "Bright", "Keenly Observant"],
+      "breed_popularity": 133,
+      "height": [15.0, 16.0],
+      "weight": [12.0, 22.0],
+      "life_expectancy": [15, 17],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Manchester Terrier (Toy)",
+    "attributes": {
+      "temperament": ["Agile", "Spirited", "Intelligent"],
+      "breed_popularity": 133,
+      "height": [10.0, 12.0],
+      "weight": [0, 12.0],
+      "life_expectancy": [15, 17],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Mastiff",
+    "attributes": {
+      "temperament": ["Courageous", "Dignified", "Good-Natured"],
+      "breed_popularity": 29,
+      "height": [27.5, 40.0],
+      "weight": [120.0, 230.0],
+      "life_expectancy": [6, 10],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Miniature American Shepherd",
+    "attributes": {
+      "temperament": ["Good-Natured", "Intelligent", "Devoted"],
+      "breed_popularity": 34,
+      "height": [13.0, 18.0],
+      "weight": [20.0, 40.0],
+      "life_expectancy": [12, 13],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "shedding": { "description": "Frequent", "rating": 5 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Miniature Bull Terrier",
+    "attributes": {
+      "temperament": ["Upbeat", "Mischievous", "Comical"],
+      "breed_popularity": 110,
+      "height": [10.0, 14.0],
+      "weight": [18.0, 28.0],
+      "life_expectancy": [11, 13],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Miniature Pinscher",
+    "attributes": {
+      "temperament": ["Fearless", "Fun-Loving", "Proud"],
+      "breed_popularity": 70,
+      "height": [10.0, 12.5],
+      "weight": [8.0, 10.0],
+      "life_expectancy": [12, 16],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Miniature Schnauzer",
+    "attributes": {
+      "temperament": ["Friendly", "Smart", "Obedient"],
+      "breed_popularity": 19,
+      "height": [12.0, 14.0],
+      "weight": [11.0, 20.0],
+      "life_expectancy": [12, 15],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Specialty/Professional", "rating": 5 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Mountain Cur",
+    "attributes": {
+      "temperament": ["Intelligent", "Strong-Willed", "Reserved with Strangers"],
+      "height": [16.0, 26.0],
+      "weight": [30.0, 60.0],
+      "life_expectancy": [10, 13],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Mudi",
+    "attributes": {
+      "temperament": ["Loyal", "Intelligent", "Active"],
+      "height": [15.0, 18.5],
+      "weight": [18.0, 29.0],
+      "life_expectancy": [12, 14],
+      "group": "Miscellaneous Class"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Neapolitan Mastiff",
+    "attributes": {
+      "temperament": ["Loyal", "Dignified", "Watchful"],
+      "breed_popularity": 102,
+      "height": [24.0, 31.0],
+      "weight": [110.0, 150.0],
+      "life_expectancy": [7, 9],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Aloof/Wary", "rating": 1 }
+    }
+  },
+  {
+    "breed_name": "Nederlandse Kooikerhondje",
+    "attributes": {
+      "temperament": ["Friendly", "Alert", "Quick"],
+      "breed_popularity": 150,
+      "height": [14.0, 17.0],
+      "weight": [20.0, 30.0],
+      "life_expectancy": [12, 15],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Newfoundland",
+    "attributes": {
+      "temperament": ["Sweet", "Patient", "Devoted"],
+      "breed_popularity": 40,
+      "height": [26.0, 28.0],
+      "weight": [100.0, 150.0],
+      "life_expectancy": [9, 10],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Norfolk Terrier",
+    "attributes": {
+      "temperament": ["Fearless", "Alert", "Fun-Loving"],
+      "breed_popularity": 126,
+      "height": [9.0, 10.0],
+      "weight": [11.0, 12.0],
+      "life_expectancy": [12, 16],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Norrbottenspets",
+    "attributes": {
+      "temperament": ["Fearless", "Agile", "Attentive"],
+      "height": [16.5, 18.0],
+      "weight": [20.0, 30.0],
+      "life_expectancy": [14, 17],
+      "group": "Miscellaneous Class"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Norwegian Buhund",
+    "attributes": {
+      "temperament": ["Confident", "Smart", "Perceptive"],
+      "breed_popularity": 165,
+      "height": [16.0, 18.5],
+      "weight": [26.0, 40.0],
+      "life_expectancy": [12, 15],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Norwegian Elkhound",
+    "attributes": {
+      "temperament": ["Friendly", "Confident", "Dependable"],
+      "breed_popularity": 97,
+      "height": [19.5, 20.5],
+      "weight": [48.0, 55.0],
+      "life_expectancy": [12, 15],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Norwegian Lundehund",
+    "attributes": {
+      "temperament": ["Loyal", "Energetic", "Alert"],
+      "breed_popularity": 191,
+      "height": [12.0, 15.0],
+      "weight": [20.0, 30.0],
+      "life_expectancy": [12, 15],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Norwich Terrier",
+    "attributes": {
+      "temperament": ["Affectionate", "Alert", "Curious"],
+      "breed_popularity": 108,
+      "height": [8.0, 12.0],
+      "weight": [10.0, 15.0],
+      "life_expectancy": [12, 15],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Nova Scotia Duck Tolling Retriever",
+    "attributes": {
+      "temperament": ["Affectionate", "Intelligent", "Outgoing"],
+      "breed_popularity": 83,
+      "height": [17.0, 21.0],
+      "weight": [35.0, 50.0],
+      "life_expectancy": [12, 14],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Old English Sheepdog",
+    "attributes": {
+      "temperament": ["Adaptable", "Gentle", "Smart"],
+      "breed_popularity": 72,
+      "height": [21.0, 30.0],
+      "weight": [60.0, 100.0],
+      "life_expectancy": [10, 12],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Otterhound",
+    "attributes": {
+      "temperament": ["Even-Tempered", "Amiable", "Boisterous"],
+      "breed_popularity": 182,
+      "height": [24.0, 27.0],
+      "weight": [80.0, 115.0],
+      "life_expectancy": [10, 13],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Papillon",
+    "attributes": {
+      "temperament": ["Friendly", "Alert", "Happy"],
+      "breed_popularity": 54,
+      "height": [8.0, 11.0],
+      "weight": [5.0, 10.0],
+      "life_expectancy": [14, 16],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Parson Russell Terrier",
+    "attributes": {
+      "temperament": ["Friendly", "Clever", "Athletic"],
+      "breed_popularity": 117,
+      "height": [13.0, 14.0],
+      "weight": [13.0, 17.0],
+      "life_expectancy": [13, 15],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Pekingese",
+    "attributes": {
+      "temperament": ["Affectionate", "Loyal", "Regal in Manner"],
+      "breed_popularity": 92,
+      "height": [6.0, 9.0],
+      "weight": [0.0, 14.0],
+      "life_expectancy": [12, 14],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Calm", "rating": 2 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Pembroke Welsh Corgi",
+    "attributes": {
+      "temperament": ["Affectionate", "Smart", "Alert"],
+      "breed_popularity": 13,
+      "height": [10.0, 12.0],
+      "weight": [15.0, 30.0],
+      "life_expectancy": [12, 13],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Perro de Presa Canario",
+    "attributes": {
+      "temperament": ["Confident", "Calm", "Strong-Willed"],
+      "height": [22.0, 26.0],
+      "weight": [84.0, 110.0],
+      "life_expectancy": [9, 11],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Calm", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Peruvian Inca Orchid (Small)",
+    "attributes": {
+      "temperament": ["Affectionate", "Loyal", "Noble"],
+      "height": [9.75, 15.75],
+      "weight": [8.5, 17.5],
+      "life_expectancy": [12, 14],
+      "group": "Miscellaneous Class"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Peruvian Inca Orchid (Medium)",
+    "attributes": {
+      "temperament": ["Affectionate", "Loyal", "Noble"],
+      "height": [15.75, 19.75],
+      "weight": [17.5, 26.5],
+      "life_expectancy": [12, 14],
+      "group": "Miscellaneous Class"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Peruvian Inca Orchid (Large)",
+    "attributes": {
+      "temperament": ["Affectionate", "Loyal", "Noble"],
+      "height": [19.75, 25.75],
+      "weight": [26.5, 55],
+      "life_expectancy": [12, 14],
+      "group": "Miscellaneous Class"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Petit Basset Griffon Vend\u00e9en",
+    "attributes": {
+      "temperament": ["Alert", "Happy", "Vivacious"],
+      "breed_popularity": 156,
+      "height": [13.0, 15.0],
+      "weight": [25.0, 40.0],
+      "life_expectancy": [12, 14],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Pharaoh Hound",
+    "attributes": {
+      "temperament": ["Friendly", "Smart", "Noble"],
+      "breed_popularity": 172,
+      "height": [21.0, 25.0],
+      "weight": [45.0, 55.0],
+      "life_expectancy": [12, 14],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Plott Hound",
+    "attributes": {
+      "temperament": ["Loyal", "Alert", "Intelligent"],
+      "breed_popularity": 171,
+      "height": [20.0, 25.0],
+      "weight": [40.0, 60.0],
+      "life_expectancy": [12, 14],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Pointer",
+    "attributes": {
+      "temperament": ["Loyal", "Hardworking", "Even-Tempered"],
+      "breed_popularity": 114,
+      "height": [23.0, 28.0],
+      "weight": [45.0, 75.0],
+      "life_expectancy": [12, 17],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Polish Lowland Sheepdog",
+    "attributes": {
+      "temperament": ["Confident", "Clever", "Lively"],
+      "breed_popularity": 170,
+      "height": [17.0, 20.0],
+      "weight": [30.0, 50.0],
+      "life_expectancy": [12, 14],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Aloof/Wary", "rating": 1 }
+    }
+  },
+  {
+    "breed_name": "Pomeranian",
+    "attributes": {
+      "temperament": ["Inquisitive", "Bold", "Lively"],
+      "breed_popularity": 23,
+      "height": [6.0, 7.0],
+      "weight": [3.0, 7.0],
+      "life_expectancy": [12, 16],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Poodle (Miniature)",
+    "attributes": {
+      "temperament": ["Active", "Proud", "Very Smart"],
+      "breed_popularity": 7,
+      "height": [10.0, 15.0],
+      "weight": [10.0, 15.0],
+      "life_expectancy": [10, 18],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {}
+  },
+  {
+    "breed_name": "Poodle (Standard)",
+    "attributes": {
+      "temperament": ["Active", "Proud", "Very Smart"],
+      "breed_popularity": 7,
+      "height": [15.0, 25.0],
+      "weight": [40.0, 70.0],
+      "life_expectancy": [10, 18],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Specialty/Professional", "rating": 5 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Poodle (Toy)",
+    "attributes": {
+      "temperament": ["Agile", "Intelligent", "Self-Confident"],
+      "breed_popularity": 7,
+      "height": [0.0, 10.0],
+      "weight": [4.0, 6.0],
+      "life_expectancy": [10, 18],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Specialty/Professional", "rating": 5 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Porcelaine",
+    "attributes": {
+      "temperament": ["Independent", "Energetic", "Powerful"],
+      "height": [22.0, 23.0],
+      "weight": [55.0, 62.0],
+      "life_expectancy": [12, 13],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Portuguese Podengo (Medium)",
+    "attributes": {
+      "temperament": ["Independent", "Alert", "Intelligent"],
+      "height": [16, 22],
+      "weight": [35, 44],
+      "life_expectancy": [10, 12],
+      "group": "Miscellaneous Class"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Portuguese Podengo (Large)",
+    "attributes": {
+      "temperament": ["Independent", "Alert", "Intelligent"],
+      "height": [22, 28],
+      "weight": [44, 66],
+      "life_expectancy": [10, 12],
+      "group": "Miscellaneous Class"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Portuguese Podengo Pequeno",
+    "attributes": {
+      "temperament": ["Playful", "Charming", "Lively"],
+      "breed_popularity": 154,
+      "height": [8.0, 12.0],
+      "weight": [9.0, 13.0],
+      "life_expectancy": [12, 15],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Portuguese Pointer",
+    "attributes": {
+      "temperament": ["Affectionate", "Smart", "Energetic"],
+      "height": [20.5, 22.0],
+      "weight": [35.0, 59.0],
+      "life_expectancy": [13, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Portuguese Sheepdog",
+    "attributes": {
+      "temperament": ["Intelligent", "Devoted", "Lively"],
+      "height": [16.5, 21.5],
+      "weight": [37.5, 59.0],
+      "life_expectancy": [12, 13],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Portuguese Water Dog",
+    "attributes": {
+      "temperament": ["Affectionate", "Adventurous", "Athletic"],
+      "breed_popularity": 50,
+      "height": [17.0, 23.0],
+      "weight": [35.0, 60.0],
+      "life_expectancy": [11, 13],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Pudelpointer",
+    "attributes": {
+      "temperament": ["Friendly", "Smart", "Willing to Please"],
+      "height": [22.0, 26.0],
+      "weight": [45.0, 70.0],
+      "life_expectancy": [13, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Pug",
+    "attributes": {
+      "temperament": ["Charming", "Mischievous", "Loving"],
+      "breed_popularity": 28,
+      "height": [10.0, 13.0],
+      "weight": [14.0, 18.0],
+      "life_expectancy": [13, 15],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Puli",
+    "attributes": {
+      "temperament": ["Loyal", "Smart", "Home-Loving"],
+      "breed_popularity": 160,
+      "height": [16.0, 17.0],
+      "weight": [25.0, 35.0],
+      "life_expectancy": [10, 15],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Specialty/Professional", "rating": 5 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Pumi",
+    "attributes": {
+      "temperament": ["Energetic", "Lively", "Ready to Work"],
+      "breed_popularity": 151,
+      "height": [15.0, 18.5],
+      "weight": [22.0, 29.0],
+      "life_expectancy": [12, 13],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Pyrenean Mastiff",
+    "attributes": {
+      "temperament": ["Gentle", "Brave", "Noble"],
+      "height": [25.0, 31.0],
+      "weight": [120.0, 240.0],
+      "life_expectancy": [10, 13],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Calm", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Pyrenean Shepherd (Rough Faced)",
+    "attributes": {
+      "temperament": ["Affectionate", "Active", "Enthusiastic"],
+      "breed_popularity": 181,
+      "height": [15.0, 18.5],
+      "weight": [15.0, 30.0],
+      "life_expectancy": [17, 20],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Pyrenean Shepherd (Smooth Faced)",
+    "attributes": {
+      "temperament": ["Affectionate", "Active", "Enthusiastic"],
+      "breed_popularity": 181,
+      "height": [15.5, 21.0],
+      "weight": [15.0, 30.0],
+      "life_expectancy": [17, 20],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Rafeiro do Alentejo",
+    "attributes": {
+      "temperament": ["Confident", "Calm", "Powerful"],
+      "height": [25.0, 29.0],
+      "weight": [77.0, 132.0],
+      "life_expectancy": [12, 14],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Calm", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Rat Terrier (Miniature)",
+    "attributes": {
+      "temperament": ["Friendly", "Inquisitive", "Lovable"],
+      "breed_popularity": 86,
+      "height": [10.0, 13.0],
+      "weight": [10.0, 25.0],
+      "life_expectancy": [12, 18],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Rat Terrier (Standard)",
+    "attributes": {
+      "temperament": ["Friendly", "Inquisitive", "Lovable"],
+      "breed_popularity": 86,
+      "height": [13.0, 18.0],
+      "weight": [10.0, 25.0],
+      "life_expectancy": [12, 18],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Redbone Coonhound",
+    "attributes": {
+      "temperament": ["Even-Tempered", "Amiable", "Eager to Please"],
+      "breed_popularity": 142,
+      "height": [21.0, 27.0],
+      "weight": [45.0, 70.0],
+      "life_expectancy": [12, 15],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Rhodesian Ridgeback",
+    "attributes": {
+      "temperament": ["Affectionate", "Dignified", "Even-Tempered"],
+      "breed_popularity": 41,
+      "height": [24.0, 27.0],
+      "weight": [70.0, 85.0],
+      "life_expectancy": [9, 11],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Romanian Mioritic Shepherd Dog",
+    "attributes": {
+      "temperament": ["Loyal", "Independent", "Confident Guardian"],
+      "height": [22.5, 29.0],
+      "weight": [100, 130],
+      "life_expectancy": [12, 14],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Aloof/Wary", "rating": 1 }
+    }
+  },
+  {
+    "breed_name": "Rottweiler",
+    "attributes": {
+      "temperament": ["Loyal", "Loving", "Confident Guardian"],
+      "breed_popularity": 8,
+      "height": [22.0, 27.0],
+      "weight": [80.0, 135.0],
+      "life_expectancy": [9, 10],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Russell Terrier",
+    "attributes": {
+      "temperament": ["Alert", "Inquisitive", "Lively"],
+      "breed_popularity": 82,
+      "height": [10.0, 12.0],
+      "weight": [9.0, 15.0],
+      "life_expectancy": [12, 14],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Russian Toy",
+    "attributes": {
+      "temperament": ["Loyal", "Smart", "Charming"],
+      "height": [8.0, 11.0],
+      "weight": [0.0, 6.5],
+      "life_expectancy": [12, 20],
+      "group": "Miscellaneous Class"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Russian Tsvetnaya Bolonka",
+    "attributes": {
+      "temperament": ["Playful", "Charming", "Inquisitive"],
+      "height": [9.0, 10.0],
+      "weight": [4.5, 11.0],
+      "life_expectancy": [12, 16],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Saint Bernard",
+    "attributes": {
+      "temperament": ["Playful", "Charming", "Inquisitive"],
+      "breed_popularity": 48,
+      "height": [26.0, 30.0],
+      "weight": [120.0, 180.0],
+      "life_expectancy": [8, 10],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Saluki",
+    "attributes": {
+      "temperament": ["Gentle", "Dignified", "Independent-Minded"],
+      "breed_popularity": 120,
+      "height": [18.0, 28.0],
+      "weight": [40.0, 65.0],
+      "life_expectancy": [10, 17],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Samoyed",
+    "attributes": {
+      "temperament": ["Adaptable", "Friendly", "Gentle"],
+      "breed_popularity": 59,
+      "height": [19.0, 23.5],
+      "weight": [35.0, 65.0],
+      "life_expectancy": [12, 14],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Schapendoes",
+    "attributes": {
+      "temperament": ["Friendly", "Watchful", "Lively"],
+      "height": [16.0, 20.0],
+      "weight": [26.0, 55.0],
+      "life_expectancy": [12, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Schipperke",
+    "attributes": {
+      "temperament": ["Confident", "Alert", "Curious"],
+      "breed_popularity": 105,
+      "height": [10.0, 13.0],
+      "weight": [10.0, 16.0],
+      "life_expectancy": [12, 14],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Scottish Deerhound",
+    "attributes": {
+      "temperament": ["Gentle", "Dignified", "Polite"],
+      "breed_popularity": 158,
+      "height": [28.0, 32.0],
+      "weight": [75.0, 110.0],
+      "life_expectancy": [8, 11],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Scottish Terrier",
+    "attributes": {
+      "temperament": ["Confident", "Independent", "Spirited"],
+      "breed_popularity": 57,
+      "height": [8.0, 12.0],
+      "weight": [18.0, 22.0],
+      "life_expectancy": [11, 13],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Sealyham Terrier",
+    "attributes": {
+      "temperament": ["Alert", "Outgoing", "Sense Of Humor"],
+      "breed_popularity": 164,
+      "height": [9.0, 11.0],
+      "weight": [20.0, 24.0],
+      "life_expectancy": [12, 14],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Segugio Italiano",
+    "attributes": {
+      "temperament": ["Friendly", "Intelligent", "Eager to Please"],
+      "height": [19.0, 23.0],
+      "weight": [40.0, 60.0],
+      "life_expectancy": [11, 13],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Shetland Sheepdog",
+    "attributes": {
+      "temperament": ["Playful", "Energetic", "Bright"],
+      "breed_popularity": 25,
+      "height": [13.0, 16.0],
+      "weight": [15.0, 25.0],
+      "life_expectancy": [12, 14],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Shiba Inu",
+    "attributes": {
+      "temperament": ["Alert", "Active", "Attentive"],
+      "breed_popularity": 44,
+      "height": [13.5, 16.5],
+      "weight": [15.0, 25.0],
+      "life_expectancy": [13, 16],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Shih Tzu",
+    "attributes": {
+      "temperament": ["Affectionate", "Playful", "Outgoing"],
+      "breed_popularity": 20,
+      "height": [9.0, 10.5],
+      "weight": [9.0, 16.0],
+      "life_expectancy": [10, 18],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Shikoku",
+    "attributes": {
+      "temperament": ["Energetic", "Alert", "Enthusiastic"],
+      "height": [17.0, 22.0],
+      "weight": [35.0, 55.0],
+      "life_expectancy": [10, 12],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Siberian Husky",
+    "attributes": {
+      "temperament": ["Loyal", "Mischievous", "Outgoing"],
+      "breed_popularity": 14,
+      "height": [20.0, 23.5],
+      "weight": [35.0, 60.0],
+      "life_expectancy": [12, 14],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Silky Terrier",
+    "attributes": {
+      "temperament": ["Friendly", "Quick", "Keenly Alert"],
+      "breed_popularity": 112,
+      "height": [9.0, 10.0],
+      "weight": [8.0, 12.0],
+      "life_expectancy": [13, 15],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Skye Terrier",
+    "attributes": {
+      "temperament": ["Courageous", "Good-Tempered", "Canny"],
+      "breed_popularity": 178,
+      "height": [8.0, 11.0],
+      "weight": [30.0, 45.0],
+      "life_expectancy": [12, 14],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Sloughi",
+    "attributes": {
+      "temperament": ["Reserved", "Graceful", "Noble"],
+      "breed_popularity": 192,
+      "height": [24.0, 29.0],
+      "weight": [45.0, 70.0],
+      "life_expectancy": [12, 14],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Slovakian Wirehaired Pointer",
+    "attributes": {
+      "temperament": ["Smart", "Energetic", "Outgoing"],
+      "height": [22.5, 26.5],
+      "weight": [50.0, 65.0],
+      "life_expectancy": [12, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "Slovensky Cuvac",
+    "attributes": {
+      "temperament": ["Courageous", "Alert", "Faithful"],
+      "height": [23.0, 27.5],
+      "weight": [68.0, 97.0],
+      "life_expectancy": [11, 13],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Regularly", "rating": 4 },
+      "energy_level": { "description": "Calm", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Slovensky Kopov",
+    "attributes": {
+      "temperament": ["Courageous", "Alert", "Determined"],
+      "height": [16.0, 20.0],
+      "weight": [33.0, 44.0],
+      "life_expectancy": [12, 13],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Small Munsterlander",
+    "attributes": {
+      "temperament": ["Intelligent", "Devoted", "Self-Confident"],
+      "height": [20.5, 21.0],
+      "weight": [40.0, 60.0],
+      "life_expectancy": [12, 14],
+      "group": "Miscellaneous Class"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Smooth Fox Terrier",
+    "attributes": {
+      "temperament": ["Friendly", "Independent", "Amusing"],
+      "breed_popularity": 123,
+      "height": [14.0, 17.0],
+      "weight": [15.0, 18.0],
+      "life_expectancy": [12, 15],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Soft Coated Wheaten Terrier",
+    "attributes": {
+      "temperament": ["Friendly", "Happy", "Deeply Devoted"],
+      "breed_popularity": 53,
+      "height": [17.0, 19.0],
+      "weight": [30.0, 40.0],
+      "life_expectancy": [12, 14],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Spanish Mastiff",
+    "attributes": {
+      "temperament": ["Affectionate", "Intelligent", "Kind"],
+      "height": [28.0, 35.0],
+      "weight": [140.0, 200.0],
+      "life_expectancy": [10, 12],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Calm", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Spanish Water Dog",
+    "attributes": {
+      "temperament": ["Playful but also Work-Oriented. Very Active and Upbeat."],
+      "breed_popularity": 153,
+      "height": [15.7, 19.75],
+      "weight": [31.0, 49.0],
+      "life_expectancy": [12, 14],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Specialty/Professional", "rating": 5 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Spinone Italiano",
+    "attributes": {
+      "temperament": ["Sociable", "Patient", "Docile"],
+      "breed_popularity": 109,
+      "height": [22.0, 27.0],
+      "weight": [60.0, 85.0],
+      "life_expectancy": [10, 12],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Stabyhoun",
+    "attributes": {
+      "temperament": ["Intelligent", "Responsive", "Loving"],
+      "height": [19.0, 21.0],
+      "weight": [40.0, 60.0],
+      "life_expectancy": [13, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Staffordshire Bull Terrier",
+    "attributes": {
+      "temperament": ["Clever", "Brave", "Tenacious"],
+      "breed_popularity": 80,
+      "height": [14.0, 16.0],
+      "weight": [24.0, 38.0],
+      "life_expectancy": [12, 14],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Standard Schnauzer",
+    "attributes": {
+      "temperament": ["Fearless", "Smart", "Spirited"],
+      "breed_popularity": 89,
+      "height": [17.5, 19.5],
+      "weight": [30.0, 50.0],
+      "life_expectancy": [13, 16],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Sussex Spaniel",
+    "attributes": {
+      "temperament": ["Friendly", "Merry", "Even-Tempered"],
+      "breed_popularity": 180,
+      "height": [13.0, 15.0],
+      "weight": [35.0, 45.0],
+      "life_expectancy": [13, 15],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Swedish Lapphund",
+    "attributes": {
+      "temperament": ["Playful", "Intelligent", "Lively"],
+      "height": [16.0, 20.0],
+      "weight": [30.0, 45.0],
+      "life_expectancy": [12, 14],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Swedish Vallhund",
+    "attributes": {
+      "temperament": ["Friendly", "Energetic", "Watchful"],
+      "breed_popularity": 169,
+      "height": [11.5, 13.75],
+      "weight": [20.0, 35.0],
+      "life_expectancy": [12, 15],
+      "group": "Herding Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Taiwan Dog",
+    "attributes": {
+      "temperament": ["Loyal", "Versatile", "Intelligent"],
+      "height": [17.0, 20.0],
+      "weight": [26.0, 40.0],
+      "life_expectancy": [9, 13],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Teddy Roosevelt Terrier",
+    "attributes": {
+      "temperament": ["Playful", "Versatile", "Intelligent"],
+      "height": [8.0, 15.0],
+      "weight": [8.0, 25.0],
+      "life_expectancy": [14, 16],
+      "group": "Miscellaneous Class"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Thai Ridgeback",
+    "attributes": {
+      "temperament": ["Loyal", "Independent", "Agile"],
+      "height": [20.0, 24.0],
+      "weight": [35.0, 75.0],
+      "life_expectancy": [12, 13],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Tibetan Mastiff",
+    "attributes": {
+      "temperament": ["Independent", "Reserved", "Intelligent"],
+      "breed_popularity": 131,
+      "height": [24.0, 35.0],
+      "weight": [70.0, 150.0],
+      "life_expectancy": [10, 12],
+      "group": "Working Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Tibetan Spaniel",
+    "attributes": {
+      "temperament": ["Playful", "Bright", "Self-Confident"],
+      "breed_popularity": 119,
+      "height": [8.0, 12.0],
+      "weight": [9.0, 15.0],
+      "life_expectancy": [12, 15],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Calm", "rating": 2 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Tibetan Terrier",
+    "attributes": {
+      "temperament": ["Affectionate", "Loyal", "Sensitive"],
+      "breed_popularity": 96,
+      "height": [14.0, 17.0],
+      "weight": [15.0, 30.0],
+      "life_expectancy": [15, 16],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Tornjak",
+    "attributes": {
+      "temperament": ["Friendly", "Courageous", "Intelligent"],
+      "height": [23.0, 28.0],
+      "weight": [62.0, 110.0],
+      "life_expectancy": [12, 14],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Tosa",
+    "attributes": {
+      "temperament": ["Fearless", "Patient", "Vigilant"],
+      "height": [20.0, 25.0],
+      "weight": [100.0, 200.0],
+      "life_expectancy": [10, 12],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Calm", "rating": 2 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Toy Fox Terrier",
+    "attributes": {
+      "temperament": ["Friendly", "Alert", "Intelligent"],
+      "breed_popularity": 111,
+      "height": [8.5, 11.5],
+      "weight": [3.5, 7.0],
+      "life_expectancy": [13, 15],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Transylvanian Hound",
+    "attributes": {
+      "temperament": ["Courageous", "Good-Natured", "Determined"],
+      "height": [22.0, 26.0],
+      "weight": [55.0, 85.0],
+      "life_expectancy": [10, 14],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 }
+    }
+  },
+  {
+    "breed_name": "Treeing Tennessee Brindle",
+    "attributes": {
+      "temperament": ["Friendly", "Alert", "Intelligent"],
+      "height": [16.0, 24.0],
+      "weight": [30.0, 50.0],
+      "life_expectancy": [10, 12],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Treeing Walker Coonhound",
+    "attributes": {
+      "temperament": ["Smart", "Brave", "Courteous"],
+      "breed_popularity": 137,
+      "height": [20.0, 27.0],
+      "weight": [50.0, 70.0],
+      "life_expectancy": [12, 13],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Vizsla",
+    "attributes": {
+      "temperament": ["Affectionate", "Gentle", "Energetic"],
+      "breed_popularity": 31,
+      "height": [21.0, 24.0],
+      "weight": [44.0, 60.0],
+      "life_expectancy": [12, 14],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Weimaraner",
+    "attributes": {
+      "temperament": ["Friendly", "Fearless", "Obedient"],
+      "breed_popularity": 36,
+      "height": [23.0, 27.0],
+      "weight": [55.0, 90.0],
+      "life_expectancy": [10, 13],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Eager to Please", "rating": 5 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Welsh Springer Spaniel",
+    "attributes": {
+      "temperament": ["Happy", "Reserved", "Upbeat"],
+      "breed_popularity": 128,
+      "height": [17.0, 19.0],
+      "weight": [35.0, 55.0],
+      "life_expectancy": [12, 15],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Easy Training", "rating": 4 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Welsh Terrier",
+    "attributes": {
+      "temperament": ["Friendly", "Spirited", "Intelligent"],
+      "breed_popularity": 107,
+      "height": [10.0, 18.0],
+      "weight": [15.0, 20.0],
+      "life_expectancy": [12, 15],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "2-3 Times a Week Brushing", "rating": 3 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Outgoing", "rating": 5 }
+    }
+  },
+  {
+    "breed_name": "West Highland White Terrier",
+    "attributes": {
+      "temperament": ["Loyal", "Happy", "Entertaining"],
+      "breed_popularity": 42,
+      "height": [9.0, 12.0],
+      "weight": [15.0, 20.0],
+      "life_expectancy": [13, 15],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Daily Brushing", "rating": 4 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  },
+  {
+    "breed_name": "Wetterhoun",
+    "attributes": {
+      "temperament": ["Loyal", "Good-Natured", "Intelligent"],
+      "height": [20.0, 25.0],
+      "weight": [50.0, 75.0],
+      "life_expectancy": [12, 14],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Whippet",
+    "attributes": {
+      "temperament": ["Affectionate", "Playful", "Calm"],
+      "breed_popularity": 61,
+      "height": [18.0, 22.0],
+      "weight": [25.0, 40.0],
+      "life_expectancy": [12, 15],
+      "group": "Hound Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Occasional", "rating": 2 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Wire Fox Terrier",
+    "attributes": {
+      "temperament": ["Confident", "Alert", "Gregarious"],
+      "breed_popularity": 101,
+      "height": [12.0, 17.0],
+      "weight": [15.0, 18.0],
+      "life_expectancy": [12, 15],
+      "group": "Terrier Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Wirehaired Pointing Griffon",
+    "attributes": {
+      "temperament": ["Friendly", "Devoted", "Trainable"],
+      "breed_popularity": 65,
+      "height": [20.0, 24.0],
+      "weight": [35.0, 70.0],
+      "life_expectancy": [12, 15],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Needs Lots of Activity", "rating": 5 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Wirehaired Vizsla",
+    "attributes": {
+      "temperament": ["Gentle", "Loyal", "Trainable"],
+      "breed_popularity": 167,
+      "height": [21.5, 25.0],
+      "weight": [45.0, 65.0],
+      "life_expectancy": [12, 14],
+      "group": "Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Working Kelpie",
+    "attributes": {
+      "temperament": ["Alert", "Eager", "Intelligent"],
+      "height": [19.0, 25.0],
+      "weight": [28.0, 60.0],
+      "life_expectancy": [12, 15],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Independent", "rating": 2 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Xoloitzcuintli (Toy)",
+    "attributes": {
+      "temperament": ["Loyal", "Alert", "Calm"],
+      "breed_popularity": 140,
+      "height": [10.0, 14.0],
+      "weight": [10.0, 15.0],
+      "life_expectancy": [13, 18],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Xoloitzcuintli (Miniature)",
+    "attributes": {
+      "temperament": ["Loyal", "Alert", "Calm"],
+      "breed_popularity": 140,
+      "height": [14.0, 18.0],
+      "weight": [15.0, 30.0],
+      "life_expectancy": [13, 18],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Xoloitzcuintli (Standard)",
+    "attributes": {
+      "temperament": ["Loyal", "Alert", "Calm"],
+      "breed_popularity": 140,
+      "height": [18.0, 23.0],
+      "weight": [30.0, 55.0],
+      "life_expectancy": [13, 18],
+      "group": "Non-Sporting Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Occasional Bath/Brush", "rating": 1 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "Agreeable", "rating": 3 },
+      "temperament_demeanor": { "description": "Alert/Responsive", "rating": 3 }
+    }
+  },
+  {
+    "breed_name": "Yakutian Laika",
+    "attributes": {
+      "temperament": ["Affectionate", "Intelligent", "Active"],
+      "height": [21.0, 23.0],
+      "weight": [40.0, 55.0],
+      "life_expectancy": [10, 12],
+      "group": "Foundation Stock Service"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Weekly Brushing", "rating": 2 },
+      "shedding": { "description": "Seasonal", "rating": 3 },
+      "energy_level": { "description": "Energetic", "rating": 4 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Reserved with Strangers", "rating": 2 }
+    }
+  },
+  {
+    "breed_name": "Yorkshire Terrier",
+    "attributes": {
+      "temperament": ["Affectionate", "Sprightly", "Tomboyish"],
+      "breed_popularity": 10,
+      "height": [7.0, 8.0],
+      "weight": [5.0, 10.0],
+      "life_expectancy": [11, 15],
+      "group": "Toy Group"
+    },
+    "traits": {
+      "grooming_frequency": { "description": "Specialty/Professional", "rating": 5 },
+      "shedding": { "description": "Infrequent", "rating": 1 },
+      "energy_level": { "description": "Regular Exercise", "rating": 3 },
+      "trainability": { "description": "May be Stubborn", "rating": 1 },
+      "temperament_demeanor": { "description": "Friendly", "rating": 4 }
+    }
+  }
+]

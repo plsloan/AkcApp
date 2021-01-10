@@ -2,77 +2,80 @@ import { Rate } from 'antd';
 import Text from 'antd/lib/typography/Text';
 import React, { useEffect, useState } from 'react';
 import { withRouter } from 'react-router-dom';
-import { apiFetch } from 'utils';
+import { breedData } from 'utils';
 
-import './BreedDetails.css'
-
-const defaultBreedData = { 'result': 'not set' };
+import './BreedDetails.css';
 
 const BreedDetailsC = (props) => {
-  const { id } = props.match.params;
-  const [breedData, setBreedData] = useState(defaultBreedData);
+  let { id } = props.match.params;
+  id = Number(id);
+
+  const [breedDetails, setBreedDetails] = useState({ breed_name: '--', attributes: {}, traits: {}});
+  const [temperament, setTemperament] = useState([]);
+  const [breedPopularity, setBreedPopularity] = useState(-1);
+  const [height, setHeight] = useState([]);
+  const [weight, setWeight] = useState([]);
+  const [lifeExpectancy, setLifeExpectancy] = useState([]);
+  const [akcGroup, setAkcGroup] = useState('--');
   
+  const defaultTraitObj = { description: '--', rating: 0};
+  const [energyLevel, setEnergyLevel] = useState(defaultTraitObj);
+  const [groomingFrequency, setGroomingFrequency] = useState(defaultTraitObj);
+  const [shedding, setShedding] = useState(defaultTraitObj);
+  const [demeanor, setDemeanor] = useState(defaultTraitObj);
+  const [trainability, setTrainability] = useState(defaultTraitObj);
+
   useEffect(() => {
-    if (breedData === defaultBreedData) {
-      apiFetch(`/api/breed/${id}`).then(data => {
-        setBreedData(data)
-      })
-    }
-  }, [breedData, id]);
+    if (id !== undefined) {
+      setBreedDetails(breedData[id]);
 
-  const getValueFromPath = (obj, path) => {
-    if (obj) {
-      let value = obj;
-      path.forEach(p => {
-        console.log('next', value[p]);
-        value = value[p];
-      });
-      return value;
+      const attributes = breedDetails['attributes'] || {};
+      setTemperament(attributes['temperament'] || []);
+      setBreedPopularity(attributes['breed_popularity'] || '--');
+      setHeight(attributes['height'] || []);
+      setWeight(attributes['weight'] || []);
+      setLifeExpectancy(attributes['life_expectancy'] || []);
+      setAkcGroup(attributes['group'] || '--');
+      
+      const traits = breedDetails['traits'] || {};
+      setEnergyLevel(traits['energy_level'] || 0);
+      setGroomingFrequency(traits['grooming_frequency'] || 0);
+      setShedding(traits['shedding'] || 0);
+      setDemeanor(traits['temperament_demeanor'] || 0);
+      setTrainability(traits['trainability'] || 0);
     }
-
-    return '';
-  }
-  
-  const attributes = breedData['attributes']
-  const temperament = getValueFromPath(attributes, ['temperament']);
-  const breedPopularity = getValueFromPath(attributes, ['breed_popularity']);
-  const height = getValueFromPath(attributes, ['height']);
-  const weight = getValueFromPath(attributes, ['weight']);
-  const lifeExpectancy = getValueFromPath(attributes, ['life_expectancy']);
-  const akcGroup = getValueFromPath(attributes, ['group']);
-  
-  const traits = breedData['traits']
+  }, [id, breedDetails]);
   
   return (
     <>
-      <h1>{breedData.breed_name}</h1>
+      <h1>{breedDetails.breed_name}</h1>
 
       <div className='detailsContainer'>
         <div className='detailsColumn'>
           <h2>Attributes</h2>
 
           <div className='attributesRow'>
-            <Text><b>Temperament: </b>{temperament ? temperament.join(', ') : '--'}</Text>
+            <Text><b>Temperament: </b>{temperament.join(', ')}</Text>
           </div>
 
           <div className='attributesRow'>
-            <Text><b>Breed Popularity:  </b>{breedPopularity || '--'}</Text>
+            <Text><b>Breed Popularity:  </b>{breedPopularity}</Text>
           </div>
 
           <div className='attributesRow'>
-            <Text><b>Height:  </b>{height ? height.join('-') : '--'} inches</Text>
+            <Text><b>Height:  </b>{height.join('-')} inches</Text>
           </div>
 
           <div className='attributesRow'>
-            <Text><b>Weight:  </b>{weight ? weight.join('-') : '--'} lbs</Text>
+            <Text><b>Weight:  </b>{weight.join('-')} lbs</Text>
           </div>
 
           <div className='attributesRow'>
-            <Text><b>Life Expectancy:  </b>{lifeExpectancy ? lifeExpectancy.join('-') : '--'} years</Text>
+            <Text><b>Life Expectancy:  </b>{lifeExpectancy.join('-')} years</Text>
           </div>
 
           <div className='attributesRow'>
-            <Text><b>AKC Group:  </b>{akcGroup || '--'}</Text>
+            <Text><b>AKC Group:  </b>{akcGroup}</Text>
           </div>
         </div>
         
@@ -80,41 +83,41 @@ const BreedDetailsC = (props) => {
           <h2>Traits</h2>  
           
           <div className='traitsRow'>
-            <Text><b>Energy Level: </b>{getValueFromPath(traits, ['energy_level', 'description'])}</Text>
+            <Text><b>Energy Level: </b>{energyLevel['description']}</Text>
             <br />
-            <Rate disabled value={getValueFromPath(traits, ['energy_level', 'rating'])} />
+            <Rate disabled value={energyLevel['rating']} />
           </div>
           
           <br />
           
           <div className='traitsRow'>
-            <Text><b>Grooming Frequency: </b>{getValueFromPath(traits, ['grooming_frequency', 'description'])}</Text>
+            <Text><b>Grooming Frequency: </b>{groomingFrequency['description']}</Text>
             <br />
-            <Rate disabled value={getValueFromPath(traits, ['grooming_frequency', 'rating'])} />
+            <Rate disabled value={groomingFrequency['rating']} />
           </div>
           
           <br />
           
           <div className='traitsRow'>
-            <Text><b>Shedding: </b>{getValueFromPath(traits, ['shedding', 'description'])}</Text>
+            <Text><b>Shedding: </b>{shedding['description']}</Text>
             <br />
-            <Rate disabled value={getValueFromPath(traits, ['shedding', 'rating'])} />
+            <Rate disabled value={shedding['rating']} />
           </div>
           
           <br />
           
           <div className='traitsRow'>
-            <Text><b>Temperament/Demeanor: </b>{getValueFromPath(traits, ['temperament_demeanor', 'description'])}</Text>
+            <Text><b>Temperament/Demeanor: </b>{demeanor['description']}</Text>
             <br />
-            <Rate disabled value={getValueFromPath(traits, ['temperament_demeanor', 'rating'])} />
+            <Rate disabled value={demeanor['rating']} />
           </div>
           
           <br />
           
           <div className='traitsRow'>
-            <Text><b>Trainability: </b>{getValueFromPath(traits, ['trainability', 'description'])}</Text>
+            <Text><b>Trainability: </b>{trainability['description']}</Text>
             <br />
-            <Rate disabled value={getValueFromPath(traits, ['trainability', 'rating'])} />
+            <Rate disabled value={trainability['rating']} />
           </div>
         </div>
       </div>

@@ -1,31 +1,20 @@
 import { Collapse, Rate, Select } from 'antd';
 import Text from 'antd/lib/typography/Text';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { withRouter } from 'react-router-dom';
-import { apiFetch } from 'utils';
-
-const defaultBreedData = {'result': 'not set'};
+import { breedData } from 'utils';
 
 const BreedSearchC = (props) => {
   const { history } = props;
   const { Panel } = Collapse;
   const { Option } = Select;
 
-  const [breedData, setBreedData] = useState(defaultBreedData);
   const [collapseActiveKey, setCollapseActiveKey] = useState(-1);
-  const [filterGroom, setFilterGroom] = useState(0);
-  const [filterShed, setFilterShed] = useState(0);
-  const [filterEnergy, setFilterEnergy] = useState(0);
+  const [filterGroom, setFilterGroom] = useState(5);
+  const [filterShed, setFilterShed] = useState(5);
+  const [filterEnergy, setFilterEnergy] = useState(5);
   const [filterTrain, setFilterTrain] = useState(0);
   const [filterTemper, setFilterTemper] = useState(0);
-
-  useEffect(() => {
-    if (breedData === defaultBreedData) { 
-      apiFetch('/api/breed-traits').then(data => {
-        setBreedData(data);
-      })
-    }
-  })
 
   const getTraitLabel = key => {
     switch (key) {
@@ -92,44 +81,36 @@ const BreedSearchC = (props) => {
   }
 
   const getTraitRatingFilters = () => {
-    if (breedData !== defaultBreedData && breedData[0]) {
-      return Object.keys(breedData[0]['traits']).map(key => (
-        <>
-          <div>
-            <Text>{getTraitLabel(key)}</Text>
-            <br />
-            <Rate onChange={onChangeTraitFilter(key)} value={getTraitRating(key)} />
-          </div>
+    return Object.keys(breedData[0]['traits']).map(key => (
+      <>
+        <div>
+          <Text>{getTraitLabel(key)}</Text>
           <br />
-        </>
-      ));
-    }
-
-    return <></>;
+          <Rate onChange={onChangeTraitFilter(key)} value={getTraitRating(key)} />
+        </div>
+        <br />
+      </>
+    ));
   }
 
   const getSelectOptions = () => {
-    if (breedData !== defaultBreedData) {
-      const filteredBreedData = breedData.filter(obj => {
-        const traits = obj['traits'];
-        if (
-          traits && 
-          traits['grooming_frequency'] && (traits['grooming_frequency']['rating'] || 0) <= filterGroom && 
-          traits['shedding'] && (traits['shedding']['rating'] || 0) <= filterShed && 
-          traits['energy_level'] && (traits['energy_level']['rating'] || 0) <= filterEnergy && 
-          traits['trainability'] && (traits['trainability']['rating'] || 0) >= filterTrain && 
-          traits['temperament_demeanor'] && (traits['temperament_demeanor']['rating'] || 0) <= filterTemper
-        ) {
-          return true;
-        }
+    const filteredBreedData = breedData.filter(obj => {
+      const traits = obj['traits'];
+      if (
+        traits && 
+        traits['grooming_frequency'] && (traits['grooming_frequency']['rating'] || 0) <= filterGroom && 
+        traits['shedding'] && (traits['shedding']['rating'] || 0) <= filterShed && 
+        traits['energy_level'] && (traits['energy_level']['rating'] || 0) <= filterEnergy && 
+        traits['trainability'] && (traits['trainability']['rating'] || 0) >= filterTrain && 
+        traits['temperament_demeanor'] && (traits['temperament_demeanor']['rating'] || 0) >= filterTemper
+      ) {
+        return true;
+      }
 
-        return false;
-      });
-      
-      return filteredBreedData.map(obj => <Option key={obj['_id']} value={obj['breed_name']}>{obj['breed_name']}</Option>);
-    }
-
-    return <></>;
+      return false;
+    });
+    
+    return filteredBreedData.map(obj => <Option key={obj['_id']} value={obj['breed_name']}>{obj['breed_name']}</Option>);
   }
 
   const onSelectBreedName = (_value, option) => { history.push(`/breeds/${option['key']}`) }

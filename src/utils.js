@@ -1,3 +1,5 @@
+export * as breedData from './data.json';
+
 export const AppRoutes = {
     Home: '/home',
     Breeds: '/breeds',
