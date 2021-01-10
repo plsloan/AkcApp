@@ -8,6 +8,6 @@ export const AppRoutes = {
     BreedSearch: '/breed-search'
 };
 
-Object.keys(breedDataJson).map(k => console.log(k));
+console.log(breedDataJson['default']);
 
 export const breedData = JSON.parse(breedDataJson);
