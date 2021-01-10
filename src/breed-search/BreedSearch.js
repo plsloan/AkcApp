@@ -94,23 +94,27 @@ const BreedSearchC = (props) => {
   }
 
   const getSelectOptions = () => {
-    const filteredBreedData = breedData.filter(obj => {
-      const traits = obj['traits'];
-      if (
-        traits && 
-        traits['grooming_frequency'] && (traits['grooming_frequency']['rating'] || 0) <= filterGroom && 
-        traits['shedding'] && (traits['shedding']['rating'] || 0) <= filterShed && 
-        traits['energy_level'] && (traits['energy_level']['rating'] || 0) <= filterEnergy && 
-        traits['trainability'] && (traits['trainability']['rating'] || 0) >= filterTrain && 
-        traits['temperament_demeanor'] && (traits['temperament_demeanor']['rating'] || 0) >= filterTemper
-      ) {
-        return true;
-      }
+    if (Array.isArray(breedData)) {
+      const filteredBreedData = breedData.filter(obj => {
+        const traits = obj['traits'];
+        if (
+          traits && 
+          traits['grooming_frequency'] && (traits['grooming_frequency']['rating'] || 0) <= filterGroom && 
+          traits['shedding'] && (traits['shedding']['rating'] || 0) <= filterShed && 
+          traits['energy_level'] && (traits['energy_level']['rating'] || 0) <= filterEnergy && 
+          traits['trainability'] && (traits['trainability']['rating'] || 0) >= filterTrain && 
+          traits['temperament_demeanor'] && (traits['temperament_demeanor']['rating'] || 0) >= filterTemper
+        ) {
+          return true;
+        }
+  
+        return false;
+      });
+      
+      return filteredBreedData.map(obj => <Option key={obj['_id']} value={obj['breed_name']}>{obj['breed_name']}</Option>);
+    }
 
-      return false;
-    });
-    
-    return filteredBreedData.map(obj => <Option key={obj['_id']} value={obj['breed_name']}>{obj['breed_name']}</Option>);
+    return <></>;
   }
 
   const onSelectBreedName = (_value, option) => { history.push(`/breeds/${option['key']}`) }

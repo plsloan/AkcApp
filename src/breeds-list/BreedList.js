@@ -123,31 +123,37 @@ const BreedsListC = (props) => {
     },
   ];
 
-  const getTableData = () => breedData.map((breed, index) => {
-    let breed_pop = ''
-    let breed_height = ''
-    let breed_weight = ''
-    let breed_life = ''
-    let breed_group = ''
-    
-    if (breed && breed['attributes']) {
-      breed_pop = breed['attributes']['breed_popularity'];
-      breed_height = breed['attributes']['height'];
-      breed_weight = breed['attributes']['weight'];
-      breed_life = breed['attributes']['life_expectancy'];
-      breed_group = breed['attributes']['group'];
+  const getTableData = () => {
+    if (Array.isArray(breedData)) {
+      breedData.map((breed, index) => {
+        let breed_pop = ''
+        let breed_height = ''
+        let breed_weight = ''
+        let breed_life = ''
+        let breed_group = ''
+        
+        if (breed && breed['attributes']) {
+          breed_pop = breed['attributes']['breed_popularity'];
+          breed_height = breed['attributes']['height'];
+          breed_weight = breed['attributes']['weight'];
+          breed_life = breed['attributes']['life_expectancy'];
+          breed_group = breed['attributes']['group'];
+        }
+  
+        return {
+          key: index,
+          breed_name: breed['breed_name'],
+          breed_popularity: breed_pop,
+          height: getStringOrRange(breed_height),
+          weight: getStringOrRange(breed_weight),
+          life_expectancy: getStringOrRange(breed_life),
+          group: breed_group,
+        }
+      });
     }
 
-    return {
-      key: index,
-      breed_name: breed['breed_name'],
-      breed_popularity: breed_pop,
-      height: getStringOrRange(breed_height),
-      weight: getStringOrRange(breed_weight),
-      life_expectancy: getStringOrRange(breed_life),
-      group: breed_group,
-    }
-  });
+    return [];
+  }
 
   // const onClickBreed = id => () => { history.push(`/breed/${id}`) }
 
