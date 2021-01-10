@@ -1,0 +1,8 @@
+.detailsContainer {
+  display: flex;
+}
+
+.detailsContainer > div {
+  padding: 20px;
+  width: 50%;
+}
