@@ -3,6 +3,8 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import { breedData } from 'utils';
 
+console.log('breedData', breedData);
+
 const BreedsListC = (props) => {
   const { history } = props;
 
