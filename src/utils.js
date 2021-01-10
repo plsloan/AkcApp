@@ -1,4 +1,6 @@
-export * as breedData from './data.json';
+import * as breedDataJson from './data.json';
+
+export const apiFetch = (path) => fetch(path).then(response => response.json()).then(json => json);
 
 export const AppRoutes = {
     Home: '/home',
@@ -6,4 +8,4 @@ export const AppRoutes = {
     BreedSearch: '/breed-search'
 };
 
-export const apiFetch = (path) => fetch(path).then(response => response.json()).then(json => json);
+export const breedData = JSON.parse(breedDataJson);
