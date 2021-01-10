@@ -131,7 +131,7 @@ const BreedSearchC = (props) => {
       <br /><br />
       
       <Collapse activeKey={collapseActiveKey} onChange={onChangeCollapseActiveKey} >
-        <Panel key={0} header="Minimum Breed Search Trait Rating Filters">
+        <Panel key={0} header="Trait Rating Filters">
           {getTraitRatingFilters()}
         </Panel>
       </Collapse>
