@@ -1,4 +1,4 @@
-import * as breedDataJson from './data.json';
+import breedDataJson from './data.json';
 
 export const apiFetch = (path) => fetch(path).then(response => response.json()).then(json => json);
 
